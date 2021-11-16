@@ -31,6 +31,8 @@ rakefile    text
 *.wsdt      binary
 *.dbgdt     binary
 *.mac       binary
+*.onnx      binary
+*.tfevents* binary
 
 # Use YAML Merge for Unity assets (more info: https://github.com/anacat/unity-mergetool)
 *.mat merge=unityyamlmerge eol=lf
