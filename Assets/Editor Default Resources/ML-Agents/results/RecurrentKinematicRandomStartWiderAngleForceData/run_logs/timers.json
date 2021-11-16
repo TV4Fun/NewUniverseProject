@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1635105225",
+        "python_version": "3.9.7 | packaged by conda-forge | (default, Sep 29 2021, 19:24:02) \n[Clang 11.1.0 ]",
+        "command_line_arguments": "/Users/jcroteau/miniforge3/envs/ml-agents/bin/mlagents-learn config/RecurrentKinematicMoveToGoal.yaml --run-id=RecurrentKinematicRandomStartWiderAngleForceData",
+        "mlagents_version": "0.28.0.dev0",
+        "mlagents_envs_version": "0.28.0.dev0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.10.0",
+        "numpy_version": "1.19.5",
+        "end_time_seconds": "1635105285"
+    },
+    "total": 60.486448666,
+    "count": 1,
+    "self": 0.018305457000003855,
+    "children": {
+        "run_training.setup": {
+            "total": 0.02812779200000004,
+            "count": 1,
+            "self": 0.02812779200000004
+        },
+        "TrainerController.start_learning": {
+            "total": 60.440015417,
+            "count": 1,
+            "self": 0.0004692499999947586,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 60.43925375,
+                    "count": 1,
+                    "self": 60.43925375
+                },
+                "TrainerController._save_models": {
+                    "total": 0.00029241700000426363,
+                    "count": 1,
+                    "self": 0.00029241700000426363
+                }
+            }
+        }
+    }
+}

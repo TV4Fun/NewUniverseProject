@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1627273185",
+        "python_version": "3.8.10 | packaged by conda-forge | (default, May 11 2021, 06:27:18) \n[Clang 11.1.0 ]",
+        "command_line_arguments": "/Users/jcroteau/miniforge3/envs/pytorch-metal/bin/mlagents-learn config/KinematicMoveToGoal.yaml --initialize-from=KinematicBiggerPenalties --env=Standalone_arm64 --run-id=FasterKinematic3 --force",
+        "mlagents_version": "0.28.0.dev0",
+        "mlagents_envs_version": "0.28.0.dev0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.10.0a0+gite856a45",
+        "numpy_version": "1.21.0",
+        "end_time_seconds": "1627273198"
+    },
+    "total": 12.477927166999999,
+    "count": 1,
+    "self": 0.01002824999999774,
+    "children": {
+        "run_training.setup": {
+            "total": 0.023808334000000042,
+            "count": 1,
+            "self": 0.023808334000000042
+        },
+        "TrainerController.start_learning": {
+            "total": 12.444090583000001,
+            "count": 1,
+            "self": 0.0012548330000026198,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 12.442806999999998,
+                    "count": 1,
+                    "self": 12.442806999999998
+                },
+                "trainer_threads": {
+                    "total": 1.916000000434792e-06,
+                    "count": 1,
+                    "self": 1.916000000434792e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 2.6833999999809066e-05,
+                    "count": 1,
+                    "self": 2.6833999999809066e-05
+                }
+            }
+        }
+    }
+}

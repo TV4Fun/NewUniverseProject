@@ -1,0 +1,65 @@
+{
+    "KinematicMoveToGoal": {
+        "checkpoints": [
+            {
+                "steps": 999995,
+                "file_path": "results/SepLogic/KinematicMoveToGoal/KinematicMoveToGoal-999995.onnx",
+                "reward": 1.4157373188063502,
+                "creation_time": 1636502908.120966,
+                "auxillary_file_paths": [
+                    "results/SepLogic/KinematicMoveToGoal/KinematicMoveToGoal-999995.pt"
+                ]
+            },
+            {
+                "steps": 1499945,
+                "file_path": "results/SepLogic/KinematicMoveToGoal/KinematicMoveToGoal-1499945.onnx",
+                "reward": 1.1233420671196654,
+                "creation_time": 1636503170.841909,
+                "auxillary_file_paths": [
+                    "results/SepLogic/KinematicMoveToGoal/KinematicMoveToGoal-1499945.pt"
+                ]
+            },
+            {
+                "steps": 1999987,
+                "file_path": "results/SepLogic/KinematicMoveToGoal/KinematicMoveToGoal-1999987.onnx",
+                "reward": 1.15330740542433,
+                "creation_time": 1636503454.551295,
+                "auxillary_file_paths": [
+                    "results/SepLogic/KinematicMoveToGoal/KinematicMoveToGoal-1999987.pt"
+                ]
+            },
+            {
+                "steps": 2499980,
+                "file_path": "results/SepLogic/KinematicMoveToGoal/KinematicMoveToGoal-2499980.onnx",
+                "reward": 1.6894038745202125,
+                "creation_time": 1636504386.972707,
+                "auxillary_file_paths": [
+                    "results/SepLogic/KinematicMoveToGoal/KinematicMoveToGoal-2499980.pt"
+                ]
+            },
+            {
+                "steps": 2614257,
+                "file_path": "results/SepLogic/KinematicMoveToGoal/KinematicMoveToGoal-2614257.onnx",
+                "reward": 1.3932437790440297,
+                "creation_time": 1636504452.635233,
+                "auxillary_file_paths": [
+                    "results/SepLogic/KinematicMoveToGoal/KinematicMoveToGoal-2614257.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2614257,
+            "file_path": "results/SepLogic/KinematicMoveToGoal.onnx",
+            "reward": 1.3932437790440297,
+            "creation_time": 1636504452.635233,
+            "auxillary_file_paths": [
+                "results/SepLogic/KinematicMoveToGoal/KinematicMoveToGoal-2614257.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0.dev0",
+        "torch_version": "1.10.0"
+    }
+}

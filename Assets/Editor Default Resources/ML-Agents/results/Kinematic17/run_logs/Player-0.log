@@ -1,0 +1,71 @@
+Mono path[0] = '/Users/jcroteau/New Unity Project/Standalone.app/Contents/Resources/Data/Managed'
+Mono config path = '/Users/jcroteau/New Unity Project/Standalone.app/Contents/MonoBleedingEdge/etc'
+Initialize engine version: 2020.3.14f1 (d0d1bb862f9d)
+[Subsystems] Discovering subsystems at path /Users/jcroteau/New Unity Project/Standalone.app/Contents/Resources/Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+2021-07-23 19:17:30.981 New Unity Project[25296:334415] (null) preferred device: Apple M1 (high power)
+2021-07-23 19:17:30.981 New Unity Project[25296:334415] Metal devices available: 1
+2021-07-23 19:17:30.981 New Unity Project[25296:334415] 0: Apple M1 (high power)
+2021-07-23 19:17:30.981 New Unity Project[25296:334415] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.062 seconds
+UnloadTime: 0.902250 ms
+Fallback handler could not load library /Users/jcroteau/New Unity Project/Standalone.app/Contents/Frameworks/MonoEmbedRuntime/osx/libcoreclr.so
+Fallback handler could not load library /Users/jcroteau/New Unity Project/Standalone.app/Contents/Frameworks/MonoEmbedRuntime/osx/libcoreclr.so.dylib
+Fallback handler could not load library /Users/jcroteau/New Unity Project/Standalone.app/Contents/Frameworks/MonoEmbedRuntime/osx/libcoreclr.so
+Fallback handler could not load library /Users/jcroteau/New Unity Project/Standalone.app/Contents/Frameworks/MonoEmbedRuntime/osx/libcoreclr.so.bundle
+Fallback handler could not load library /Users/jcroteau/New Unity Project/Standalone.app/Contents/Frameworks/MonoEmbedRuntime/osx/libcoreclr.so
+Fallback handler could not load library /Users/jcroteau/New Unity Project/Standalone.app/Contents/Frameworks/MonoEmbedRuntime/osx/libdl.so
+Fallback handler could not load library /Users/jcroteau/New Unity Project/Standalone.app/Contents/Frameworks/MonoEmbedRuntime/osx/libdl.so.dylib
+Fallback handler could not load library /Users/jcroteau/New Unity Project/Standalone.app/Contents/Frameworks/MonoEmbedRuntime/osx/libdl.so
+Fallback handler could not load library /Users/jcroteau/New Unity Project/Standalone.app/Contents/Frameworks/MonoEmbedRuntime/osx/libdl.so.bundle
+Fallback handler could not load library /Users/jcroteau/New Unity Project/Standalone.app/Contents/Frameworks/MonoEmbedRuntime/osx/libdl.so
+Unexpected exception when trying to initialize communication: System.IO.IOException: Error loading native library "/Users/jcroteau/New Unity Project/Standalone.app/Contents/Resources/Data/Managed/../../../Plugins/libgrpc_csharp_ext.x64.bundle"
+  at Grpc.Core.Internal.UnmanagedLibrary..ctor (System.String[] libraryPathAlternatives) [0x00063] in <2f154ad39ec14cfea604815989d96352>:0 
+  at Grpc.Core.Internal.NativeExtension.Load () [0x000d7] in <2f154ad39ec14cfea604815989d96352>:0 
+  at Grpc.Core.Internal.NativeExtension..ctor () [0x00006] in <2f154ad39ec14cfea604815989d96352>:0 
+  at Grpc.Core.Internal.NativeExtension.Get () [0x00022] in <2f154ad39ec14cfea604815989d96352>:0 
+  at Grpc.Core.Internal.NativeMethods.Get () [0x00000] in <2f154ad39ec14cfea604815989d96352>:0 
+  at Grpc.Core.GrpcEnvironment.GrpcNativeInit () [0x00000] in <2f154ad39ec14cfea604815989d96352>:0 
+  at Grpc.Core.GrpcEnvironment..ctor () [0x0001e] in <2f154ad39ec14cfea604815989d96352>:0 
+  at Grpc.Core.GrpcEnvironment.AddRef () [0x00028] in <2f154ad39ec14cfea604815989d96352>:0 
+  at Grpc.Core.Channel..ctor (System.String target, Grpc.Core.ChannelCredentials credentials, System.Collections.Generic.IEnumerable`1[T] options) [0x00051] in <2f154ad39ec14cfea604815989d96352>:0 
+  at Grpc.Core.Channel..ctor (System.String target, Grpc.Core.ChannelCredentials credentials) [0x00000] in <2f154ad39ec14cfea604815989d96352>:0 
+  at Unity.MLAgents.RpcCommunicator.Initialize (System.Int32 port, Unity.MLAgents.CommunicatorObjects.UnityOutputProto unityOutput, Unity.MLAgents.CommunicatorObjects.UnityInputProto& unityInput) [0x0001d] in <76544e47a098478e84d14994111605b5>:0 
+  at Unity.MLAgents.RpcCommunicator.Initialize (Unity.MLAgents.CommunicatorInitParameters initParameters, Unity.MLAgents.UnityRLInitParameters& initParametersOut) [0x00054] in <76544e47a098478e84d14994111605b5>:0 
+
+Couldn't connect to trainer on port 5005 using API version 1.5.0. Will perform inference instead.
+
+Collided with target
+
+Still colliding with target
+
+Still colliding with target
+
+Still colliding with target
+
+Still colliding with target
+
+Still colliding with target
+
+Still colliding with target
+
+Still colliding with target
+
+Still colliding with target
+
+Still colliding with target
+
+Still colliding with target
+
+Still colliding with target
+
+Still colliding with target
+
+Still colliding with target
+
+Still colliding with target
+
+Stop colliding with target
+

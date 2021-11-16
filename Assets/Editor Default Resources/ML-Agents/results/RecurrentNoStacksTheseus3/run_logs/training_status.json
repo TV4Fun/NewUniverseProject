@@ -1,0 +1,56 @@
+{
+    "KinematicMoveToGoal": {
+        "checkpoints": [
+            {
+                "steps": 499947,
+                "file_path": "results/RecurrentNoStacksTheseus3/KinematicMoveToGoal/KinematicMoveToGoal-499947.onnx",
+                "reward": -1.0571612843275071,
+                "creation_time": 1635179593.862659,
+                "auxillary_file_paths": [
+                    "results/RecurrentNoStacksTheseus3/KinematicMoveToGoal/KinematicMoveToGoal-499947.pt"
+                ]
+            },
+            {
+                "steps": 999962,
+                "file_path": "results/RecurrentNoStacksTheseus3/KinematicMoveToGoal/KinematicMoveToGoal-999962.onnx",
+                "reward": -5.816227677795622,
+                "creation_time": 1635181033.6888418,
+                "auxillary_file_paths": [
+                    "results/RecurrentNoStacksTheseus3/KinematicMoveToGoal/KinematicMoveToGoal-999962.pt"
+                ]
+            },
+            {
+                "steps": 1499992,
+                "file_path": "results/RecurrentNoStacksTheseus3/KinematicMoveToGoal/KinematicMoveToGoal-1499992.onnx",
+                "reward": -2.401725720900756,
+                "creation_time": 1635186342.7364373,
+                "auxillary_file_paths": [
+                    "results/RecurrentNoStacksTheseus3/KinematicMoveToGoal/KinematicMoveToGoal-1499992.pt"
+                ]
+            },
+            {
+                "steps": 1964927,
+                "file_path": "results/RecurrentNoStacksTheseus3/KinematicMoveToGoal/KinematicMoveToGoal-1964927.onnx",
+                "reward": null,
+                "creation_time": 1635203569.9053357,
+                "auxillary_file_paths": [
+                    "results/RecurrentNoStacksTheseus3/KinematicMoveToGoal/KinematicMoveToGoal-1964927.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1964927,
+            "file_path": "results/RecurrentNoStacksTheseus3/KinematicMoveToGoal.onnx",
+            "reward": null,
+            "creation_time": 1635203569.9053357,
+            "auxillary_file_paths": [
+                "results/RecurrentNoStacksTheseus3/KinematicMoveToGoal/KinematicMoveToGoal-1964927.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0.dev0",
+        "torch_version": "1.8.1+cu102"
+    }
+}

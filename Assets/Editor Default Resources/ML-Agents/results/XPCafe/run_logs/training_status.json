@@ -1,0 +1,29 @@
+{
+    "KinematicMoveToGoal": {
+        "checkpoints": [
+            {
+                "steps": 19348,
+                "file_path": "results/XPCafe/KinematicMoveToGoal/KinematicMoveToGoal-19348.onnx",
+                "reward": -0.5976368576288223,
+                "creation_time": 1635896620.7599092,
+                "auxillary_file_paths": [
+                    "results/XPCafe/KinematicMoveToGoal/KinematicMoveToGoal-19348.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 19348,
+            "file_path": "results/XPCafe/KinematicMoveToGoal.onnx",
+            "reward": -0.5976368576288223,
+            "creation_time": 1635896620.7599092,
+            "auxillary_file_paths": [
+                "results/XPCafe/KinematicMoveToGoal/KinematicMoveToGoal-19348.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0.dev0",
+        "torch_version": "1.10.0"
+    }
+}

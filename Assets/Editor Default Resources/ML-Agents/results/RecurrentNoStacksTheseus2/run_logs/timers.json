@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1635178825",
+        "python_version": "3.8.8 (default, Apr 13 2021, 19:58:26) \n[GCC 7.3.0]",
+        "command_line_arguments": "/home/jcroteau/anaconda3/envs/ml-agents/bin/mlagents-learn config/RecurrentKinematicMoveToGoal.yaml --run-id=RecurrentNoStacksTheseus2 --resume",
+        "mlagents_version": "0.28.0.dev0",
+        "mlagents_envs_version": "0.28.0.dev0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.8.1+cu102",
+        "numpy_version": "1.19.5",
+        "end_time_seconds": "1635178831"
+    },
+    "total": 6.510974274991895,
+    "count": 1,
+    "self": 0.004477786991628818,
+    "children": {
+        "run_training.setup": {
+            "total": 0.07937085600860883,
+            "count": 1,
+            "self": 0.07937085600860883
+        },
+        "TrainerController.start_learning": {
+            "total": 6.427125631991657,
+            "count": 1,
+            "self": 5.902400880586356e-05,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 6.427045951990294,
+                    "count": 1,
+                    "self": 6.427045951990294
+                },
+                "TrainerController._save_models": {
+                    "total": 2.0655992557294667e-05,
+                    "count": 1,
+                    "self": 2.0655992557294667e-05
+                }
+            }
+        }
+    }
+}

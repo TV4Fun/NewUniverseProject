@@ -1,0 +1,65 @@
+{
+    "KinematicMoveToGoal": {
+        "checkpoints": [
+            {
+                "steps": 4161184,
+                "file_path": "results/Meeseeks3/KinematicMoveToGoal/KinematicMoveToGoal-4161184.onnx",
+                "reward": -1.5165000651031733,
+                "creation_time": 1635319133.7770557,
+                "auxillary_file_paths": [
+                    "results/Meeseeks3/KinematicMoveToGoal/KinematicMoveToGoal-4161184.pt"
+                ]
+            },
+            {
+                "steps": 4171936,
+                "file_path": "results/Meeseeks3/KinematicMoveToGoal/KinematicMoveToGoal-4171936.onnx",
+                "reward": null,
+                "creation_time": 1635319166.6028721,
+                "auxillary_file_paths": [
+                    "results/Meeseeks3/KinematicMoveToGoal/KinematicMoveToGoal-4171936.pt"
+                ]
+            },
+            {
+                "steps": 4281426,
+                "file_path": "results/Meeseeks3/KinematicMoveToGoal/KinematicMoveToGoal-4281426.onnx",
+                "reward": null,
+                "creation_time": 1635319287.9082096,
+                "auxillary_file_paths": [
+                    "results/Meeseeks3/KinematicMoveToGoal/KinematicMoveToGoal-4281426.pt"
+                ]
+            },
+            {
+                "steps": 4311783,
+                "file_path": "results/Meeseeks3/KinematicMoveToGoal/KinematicMoveToGoal-4311783.onnx",
+                "reward": null,
+                "creation_time": 1635319890.2028759,
+                "auxillary_file_paths": [
+                    "results/Meeseeks3/KinematicMoveToGoal/KinematicMoveToGoal-4311783.pt"
+                ]
+            },
+            {
+                "steps": 4431969,
+                "file_path": "results/Meeseeks3/KinematicMoveToGoal/KinematicMoveToGoal-4431969.onnx",
+                "reward": null,
+                "creation_time": 1635320025.3113625,
+                "auxillary_file_paths": [
+                    "results/Meeseeks3/KinematicMoveToGoal/KinematicMoveToGoal-4431969.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 4431969,
+            "file_path": "results/Meeseeks3/KinematicMoveToGoal.onnx",
+            "reward": null,
+            "creation_time": 1635320025.3113625,
+            "auxillary_file_paths": [
+                "results/Meeseeks3/KinematicMoveToGoal/KinematicMoveToGoal-4431969.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0.dev0",
+        "torch_version": "1.8.1+cu102"
+    }
+}

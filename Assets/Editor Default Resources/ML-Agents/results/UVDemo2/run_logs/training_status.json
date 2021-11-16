@@ -1,0 +1,56 @@
+{
+    "KinematicMoveToGoal": {
+        "checkpoints": [
+            {
+                "steps": 499962,
+                "file_path": "results/UVDemo2/KinematicMoveToGoal/KinematicMoveToGoal-499962.onnx",
+                "reward": 34.622887692713576,
+                "creation_time": 1635392803.6305945,
+                "auxillary_file_paths": [
+                    "results/UVDemo2/KinematicMoveToGoal/KinematicMoveToGoal-499962.pt"
+                ]
+            },
+            {
+                "steps": 999988,
+                "file_path": "results/UVDemo2/KinematicMoveToGoal/KinematicMoveToGoal-999988.onnx",
+                "reward": 0.27622125991974433,
+                "creation_time": 1635393467.0118403,
+                "auxillary_file_paths": [
+                    "results/UVDemo2/KinematicMoveToGoal/KinematicMoveToGoal-999988.pt"
+                ]
+            },
+            {
+                "steps": 1024453,
+                "file_path": "results/UVDemo2/KinematicMoveToGoal/KinematicMoveToGoal-1024453.onnx",
+                "reward": 0.3622100642549062,
+                "creation_time": 1635393557.3737113,
+                "auxillary_file_paths": [
+                    "results/UVDemo2/KinematicMoveToGoal/KinematicMoveToGoal-1024453.pt"
+                ]
+            },
+            {
+                "steps": 1306302,
+                "file_path": "results/UVDemo2/KinematicMoveToGoal/KinematicMoveToGoal-1306302.onnx",
+                "reward": 0.5749921011871983,
+                "creation_time": 1635393990.858488,
+                "auxillary_file_paths": [
+                    "results/UVDemo2/KinematicMoveToGoal/KinematicMoveToGoal-1306302.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1306302,
+            "file_path": "results/UVDemo2/KinematicMoveToGoal.onnx",
+            "reward": 0.5749921011871983,
+            "creation_time": 1635393990.858488,
+            "auxillary_file_paths": [
+                "results/UVDemo2/KinematicMoveToGoal/KinematicMoveToGoal-1306302.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0.dev0",
+        "torch_version": "1.8.1+cu102"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "KinematicMoveToGoal": {
+        "checkpoints": [
+            {
+                "steps": 499946,
+                "file_path": "results/RecurrentNoStacksTheseus5/KinematicMoveToGoal/KinematicMoveToGoal-499946.onnx",
+                "reward": -1.5421778226736933,
+                "creation_time": 1635217970.120867,
+                "auxillary_file_paths": [
+                    "results/RecurrentNoStacksTheseus5/KinematicMoveToGoal/KinematicMoveToGoal-499946.pt"
+                ]
+            },
+            {
+                "steps": 696495,
+                "file_path": "results/RecurrentNoStacksTheseus5/KinematicMoveToGoal/KinematicMoveToGoal-696495.onnx",
+                "reward": -0.6283079114343438,
+                "creation_time": 1635218243.033866,
+                "auxillary_file_paths": [
+                    "results/RecurrentNoStacksTheseus5/KinematicMoveToGoal/KinematicMoveToGoal-696495.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 696495,
+            "file_path": "results/RecurrentNoStacksTheseus5/KinematicMoveToGoal.onnx",
+            "reward": -0.6283079114343438,
+            "creation_time": 1635218243.033866,
+            "auxillary_file_paths": [
+                "results/RecurrentNoStacksTheseus5/KinematicMoveToGoal/KinematicMoveToGoal-696495.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0.dev0",
+        "torch_version": "1.8.1+cu102"
+    }
+}

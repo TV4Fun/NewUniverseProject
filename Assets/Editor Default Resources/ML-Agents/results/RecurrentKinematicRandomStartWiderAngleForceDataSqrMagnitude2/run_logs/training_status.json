@@ -1,0 +1,65 @@
+{
+    "KinematicMoveToGoal": {
+        "checkpoints": [
+            {
+                "steps": 3499973,
+                "file_path": "results/RecurrentKinematicRandomStartWiderAngleForceDataSqrMagnitude2/KinematicMoveToGoal/KinematicMoveToGoal-3499973.onnx",
+                "reward": -1999.3555569118923,
+                "creation_time": 1635114739.8547242,
+                "auxillary_file_paths": [
+                    "results/RecurrentKinematicRandomStartWiderAngleForceDataSqrMagnitude2/KinematicMoveToGoal/KinematicMoveToGoal-3499973.pt"
+                ]
+            },
+            {
+                "steps": 3999983,
+                "file_path": "results/RecurrentKinematicRandomStartWiderAngleForceDataSqrMagnitude2/KinematicMoveToGoal/KinematicMoveToGoal-3999983.onnx",
+                "reward": 38312.77642669678,
+                "creation_time": 1635115181.143829,
+                "auxillary_file_paths": [
+                    "results/RecurrentKinematicRandomStartWiderAngleForceDataSqrMagnitude2/KinematicMoveToGoal/KinematicMoveToGoal-3999983.pt"
+                ]
+            },
+            {
+                "steps": 4499939,
+                "file_path": "results/RecurrentKinematicRandomStartWiderAngleForceDataSqrMagnitude2/KinematicMoveToGoal/KinematicMoveToGoal-4499939.onnx",
+                "reward": 23163.347467422485,
+                "creation_time": 1635115614.5126898,
+                "auxillary_file_paths": [
+                    "results/RecurrentKinematicRandomStartWiderAngleForceDataSqrMagnitude2/KinematicMoveToGoal/KinematicMoveToGoal-4499939.pt"
+                ]
+            },
+            {
+                "steps": 4999947,
+                "file_path": "results/RecurrentKinematicRandomStartWiderAngleForceDataSqrMagnitude2/KinematicMoveToGoal/KinematicMoveToGoal-4999947.onnx",
+                "reward": -1267.1548105875652,
+                "creation_time": 1635116048.455481,
+                "auxillary_file_paths": [
+                    "results/RecurrentKinematicRandomStartWiderAngleForceDataSqrMagnitude2/KinematicMoveToGoal/KinematicMoveToGoal-4999947.pt"
+                ]
+            },
+            {
+                "steps": 5000011,
+                "file_path": "results/RecurrentKinematicRandomStartWiderAngleForceDataSqrMagnitude2/KinematicMoveToGoal/KinematicMoveToGoal-5000011.onnx",
+                "reward": -1267.1548105875652,
+                "creation_time": 1635116048.575775,
+                "auxillary_file_paths": [
+                    "results/RecurrentKinematicRandomStartWiderAngleForceDataSqrMagnitude2/KinematicMoveToGoal/KinematicMoveToGoal-5000011.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 5000011,
+            "file_path": "results/RecurrentKinematicRandomStartWiderAngleForceDataSqrMagnitude2/KinematicMoveToGoal.onnx",
+            "reward": -1267.1548105875652,
+            "creation_time": 1635116048.575775,
+            "auxillary_file_paths": [
+                "results/RecurrentKinematicRandomStartWiderAngleForceDataSqrMagnitude2/KinematicMoveToGoal/KinematicMoveToGoal-5000011.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0.dev0",
+        "torch_version": "1.10.0"
+    }
+}

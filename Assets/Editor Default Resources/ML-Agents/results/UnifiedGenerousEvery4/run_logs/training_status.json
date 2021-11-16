@@ -1,0 +1,65 @@
+{
+    "KinematicMoveToGoal": {
+        "checkpoints": [
+            {
+                "steps": 499981,
+                "file_path": "results/UnifiedGenerousEvery4/KinematicMoveToGoal/KinematicMoveToGoal-499981.onnx",
+                "reward": -0.21543064231518655,
+                "creation_time": 1636418998.81324,
+                "auxillary_file_paths": [
+                    "results/UnifiedGenerousEvery4/KinematicMoveToGoal/KinematicMoveToGoal-499981.pt"
+                ]
+            },
+            {
+                "steps": 999955,
+                "file_path": "results/UnifiedGenerousEvery4/KinematicMoveToGoal/KinematicMoveToGoal-999955.onnx",
+                "reward": 0.025083189088575267,
+                "creation_time": 1636419206.374322,
+                "auxillary_file_paths": [
+                    "results/UnifiedGenerousEvery4/KinematicMoveToGoal/KinematicMoveToGoal-999955.pt"
+                ]
+            },
+            {
+                "steps": 1499986,
+                "file_path": "results/UnifiedGenerousEvery4/KinematicMoveToGoal/KinematicMoveToGoal-1499986.onnx",
+                "reward": -0.0538660331491243,
+                "creation_time": 1636419425.273382,
+                "auxillary_file_paths": [
+                    "results/UnifiedGenerousEvery4/KinematicMoveToGoal/KinematicMoveToGoal-1499986.pt"
+                ]
+            },
+            {
+                "steps": 1775530,
+                "file_path": "results/UnifiedGenerousEvery4/KinematicMoveToGoal/KinematicMoveToGoal-1775530.onnx",
+                "reward": 0.1581391380570921,
+                "creation_time": 1636419616.273104,
+                "auxillary_file_paths": [
+                    "results/UnifiedGenerousEvery4/KinematicMoveToGoal/KinematicMoveToGoal-1775530.pt"
+                ]
+            },
+            {
+                "steps": 1822981,
+                "file_path": "results/UnifiedGenerousEvery4/KinematicMoveToGoal/KinematicMoveToGoal-1822981.onnx",
+                "reward": 0.1239427292659398,
+                "creation_time": 1636484383.137268,
+                "auxillary_file_paths": [
+                    "results/UnifiedGenerousEvery4/KinematicMoveToGoal/KinematicMoveToGoal-1822981.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1822981,
+            "file_path": "results/UnifiedGenerousEvery4/KinematicMoveToGoal.onnx",
+            "reward": 0.1239427292659398,
+            "creation_time": 1636484383.137268,
+            "auxillary_file_paths": [
+                "results/UnifiedGenerousEvery4/KinematicMoveToGoal/KinematicMoveToGoal-1822981.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0.dev0",
+        "torch_version": "1.10.0"
+    }
+}

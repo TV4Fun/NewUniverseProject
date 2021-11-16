@@ -1,0 +1,65 @@
+{
+    "KinematicMoveToGoal": {
+        "checkpoints": [
+            {
+                "steps": 3499984,
+                "file_path": "results/KinematicBiggerPenalties/KinematicMoveToGoal/KinematicMoveToGoal-3499984.onnx",
+                "reward": 70395.54825846355,
+                "creation_time": 1627167628.487854,
+                "auxillary_file_paths": [
+                    "results/KinematicBiggerPenalties/KinematicMoveToGoal/KinematicMoveToGoal-3499984.pt"
+                ]
+            },
+            {
+                "steps": 3999955,
+                "file_path": "results/KinematicBiggerPenalties/KinematicMoveToGoal/KinematicMoveToGoal-3999955.onnx",
+                "reward": 90067.61068907237,
+                "creation_time": 1627168114.127421,
+                "auxillary_file_paths": [
+                    "results/KinematicBiggerPenalties/KinematicMoveToGoal/KinematicMoveToGoal-3999955.pt"
+                ]
+            },
+            {
+                "steps": 4499951,
+                "file_path": "results/KinematicBiggerPenalties/KinematicMoveToGoal/KinematicMoveToGoal-4499951.onnx",
+                "reward": 94973.2747670954,
+                "creation_time": 1627168599.892403,
+                "auxillary_file_paths": [
+                    "results/KinematicBiggerPenalties/KinematicMoveToGoal/KinematicMoveToGoal-4499951.pt"
+                ]
+            },
+            {
+                "steps": 4999949,
+                "file_path": "results/KinematicBiggerPenalties/KinematicMoveToGoal/KinematicMoveToGoal-4999949.onnx",
+                "reward": 72779.66774393717,
+                "creation_time": 1627169085.724711,
+                "auxillary_file_paths": [
+                    "results/KinematicBiggerPenalties/KinematicMoveToGoal/KinematicMoveToGoal-4999949.pt"
+                ]
+            },
+            {
+                "steps": 5000007,
+                "file_path": "results/KinematicBiggerPenalties/KinematicMoveToGoal/KinematicMoveToGoal-5000007.onnx",
+                "reward": 74459.0283536911,
+                "creation_time": 1627169085.749055,
+                "auxillary_file_paths": [
+                    "results/KinematicBiggerPenalties/KinematicMoveToGoal/KinematicMoveToGoal-5000007.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 5000007,
+            "file_path": "results/KinematicBiggerPenalties/KinematicMoveToGoal.onnx",
+            "reward": 74459.0283536911,
+            "creation_time": 1627169085.749055,
+            "auxillary_file_paths": [
+                "results/KinematicBiggerPenalties/KinematicMoveToGoal/KinematicMoveToGoal-5000007.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0.dev0",
+        "torch_version": "1.10.0a0+gite856a45"
+    }
+}
