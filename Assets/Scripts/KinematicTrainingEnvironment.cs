@@ -37,11 +37,11 @@ public class KinematicTrainingEnvironment : MonoBehaviour
             m_HasFallen = false;
         }
 
-        public Rigidbody rigidbody;
-        public Transform transform;
-        public float startingHeight;
+        public readonly Rigidbody rigidbody;
+        public readonly Transform transform;
+        public readonly float startingHeight;
         private bool m_HasFallen = false;
-        private float m_MinHeight;
+        private readonly float m_MinHeight;
     }
 
     [SerializeField] private Agent agent;
