@@ -37,6 +37,10 @@ Bin.meta
 # Never ignore Asset meta data
 ![Aa]ssets/**/*.meta
 
+# Ignore generated timer logs (see Unity-Technologies/ml-agents#5592)
+Assets/ML-Agents/Timers/**
+Assets/ML-Agents/Timers.meta
+
 # Ignore Jetbrains Plugin
 Assets/Plugins/Editor/JetBrains.meta
 Assets/Plugins/Editor/JetBrains/*
