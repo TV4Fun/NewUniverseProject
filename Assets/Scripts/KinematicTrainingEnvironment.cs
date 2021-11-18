@@ -142,8 +142,11 @@ public class KinematicTrainingEnvironment : MonoBehaviour
 
     public void NotifyTouch()
     {
-        m_HaveTouched = true;
-        agent.AddReward(rewardParameters.collisionReward);
+        if (!m_HaveTouched)
+        {
+            m_HaveTouched = true;
+            agent.AddReward(rewardParameters.collisionReward);
+        }
     }
 
     private void Respawn()
