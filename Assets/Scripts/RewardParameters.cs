@@ -30,5 +30,9 @@ namespace DefaultNamespace
         [Tooltip(
             "If unchecked, the episode will continue and the ball and agent will respawn after a fall. If checked, the episode will end and the full time penalty (if there is a limit) will be applied.")]
         public bool endEpisodeOnFall = true;
+
+        [Tooltip(
+            "If checked, the time limit is set randomly using an exponential distribution, with timeLimit used as a mean.")]
+        public bool randomTimeLimit;
     }
 }

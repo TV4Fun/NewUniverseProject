@@ -63,11 +63,24 @@ public class KinematicTrainingEnvironment : MonoBehaviour
     private float m_TargetDistance;
     private bool m_HaveTouched = false;
     private float m_ElapsedTime;
+    private float m_StepEndProbability;
 
     private void Awake()
     {
         m_Target = new TrackedObject(target, fallThreshold);
         m_Agent = new TrackedObject(agent.gameObject, fallThreshold);
+        if (rewardParameters.randomTimeLimit)
+        {
+            if (rewardParameters.timeLimit > 0.0f)
+            {
+                m_StepEndProbability = 1.0f - Mathf.Exp(-Time.fixedDeltaTime / rewardParameters.timeLimit);
+            }
+            else
+            {
+                Debug.LogWarning("Ignoring random time limit because no mean time specified.");
+                rewardParameters.randomTimeLimit = false;
+            }
+        }
     }
 
     // Update is called once per frame
@@ -126,7 +139,7 @@ public class KinematicTrainingEnvironment : MonoBehaviour
     {
         agent.AddReward(-rewardParameters.timePenalty * Time.deltaTime);
         m_ElapsedTime += Time.deltaTime;
-        if (rewardParameters.timeLimit > 0.0 && m_ElapsedTime >= rewardParameters.timeLimit)
+        if ((rewardParameters.randomTimeLimit && Random.value < m_StepEndProbability) || (rewardParameters.timeLimit > 0.0 && m_ElapsedTime >= rewardParameters.timeLimit))
         {
             agent.EndEpisode();
         }

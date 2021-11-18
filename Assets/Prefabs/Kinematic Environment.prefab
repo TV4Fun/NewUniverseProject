@@ -49,7 +49,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   agent: {fileID: 7321997081899999260}
   target: {fileID: 6635256423771931986}
-  rewardParameters: {fileID: 11400000, guid: d34efd5c5a6f8424b88ce28ef5c8a5b9, type: 2}
+  rewardParameters: {fileID: 11400000, guid: 861fe6ccab1f341b193dc1da95ada434, type: 2}
   floor: {fileID: 7834034765031319178}
   winMaterial: {fileID: 2100000, guid: 842f8c4f2712849ea9d73737a5113ae8, type: 2}
   loseMaterial: {fileID: 2100000, guid: fc64fbd43e7e14c07a7e5d7d9aa34f04, type: 2}
@@ -143,8 +143,8 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 1
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 5022602860645237092, guid: 9bc404c2799f6446fb3b6408881f2663, type: 3}
-  m_InferenceDevice: 1
+  m_Model: {fileID: 5022602860645237092, guid: e5962e4b1671c446a96bb90f0abdf81e, type: 3}
+  m_InferenceDevice: 0
   m_BehaviorType: 0
   m_BehaviorName: KinematicMoveToGoal
   TeamId: 0

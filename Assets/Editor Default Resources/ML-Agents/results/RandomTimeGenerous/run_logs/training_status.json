@@ -1,0 +1,65 @@
+{
+    "KinematicMoveToGoal": {
+        "checkpoints": [
+            {
+                "steps": 7999981,
+                "file_path": "results/RandomTimeGenerous/KinematicMoveToGoal/KinematicMoveToGoal-7999981.onnx",
+                "reward": 0.33559310636841333,
+                "creation_time": 1637185376.414678,
+                "auxillary_file_paths": [
+                    "results/RandomTimeGenerous/KinematicMoveToGoal/KinematicMoveToGoal-7999981.pt"
+                ]
+            },
+            {
+                "steps": 8499952,
+                "file_path": "results/RandomTimeGenerous/KinematicMoveToGoal/KinematicMoveToGoal-8499952.onnx",
+                "reward": 0.3528823839857223,
+                "creation_time": 1637185622.958359,
+                "auxillary_file_paths": [
+                    "results/RandomTimeGenerous/KinematicMoveToGoal/KinematicMoveToGoal-8499952.pt"
+                ]
+            },
+            {
+                "steps": 8999962,
+                "file_path": "results/RandomTimeGenerous/KinematicMoveToGoal/KinematicMoveToGoal-8999962.onnx",
+                "reward": 0.3398015648952775,
+                "creation_time": 1637185869.484918,
+                "auxillary_file_paths": [
+                    "results/RandomTimeGenerous/KinematicMoveToGoal/KinematicMoveToGoal-8999962.pt"
+                ]
+            },
+            {
+                "steps": 9499993,
+                "file_path": "results/RandomTimeGenerous/KinematicMoveToGoal/KinematicMoveToGoal-9499993.onnx",
+                "reward": 0.3342278476246318,
+                "creation_time": 1637186116.400925,
+                "auxillary_file_paths": [
+                    "results/RandomTimeGenerous/KinematicMoveToGoal/KinematicMoveToGoal-9499993.pt"
+                ]
+            },
+            {
+                "steps": 9748139,
+                "file_path": "results/RandomTimeGenerous/KinematicMoveToGoal/KinematicMoveToGoal-9748139.onnx",
+                "reward": 0.3205853592585567,
+                "creation_time": 1637186248.890738,
+                "auxillary_file_paths": [
+                    "results/RandomTimeGenerous/KinematicMoveToGoal/KinematicMoveToGoal-9748139.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 9748139,
+            "file_path": "results/RandomTimeGenerous/KinematicMoveToGoal.onnx",
+            "reward": 0.3205853592585567,
+            "creation_time": 1637186248.890738,
+            "auxillary_file_paths": [
+                "results/RandomTimeGenerous/KinematicMoveToGoal/KinematicMoveToGoal-9748139.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0.dev0",
+        "torch_version": "1.10.0"
+    }
+}
